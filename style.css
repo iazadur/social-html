@@ -92,12 +92,7 @@ nav{
     top: 70px;
     align-self: flex-start;
 }
-.right-sidebar{
-    flex-basis: 25%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-}
+
 .main-content{
     flex-basis: 47%;
 
@@ -132,3 +127,30 @@ nav{
     font-weight: 500;
 }
 /* =====right sider bar========== */
+
+.right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    color: #626262;
+
+}
+.sidebar-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.sidebar-title h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.sidebar-title a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+}
